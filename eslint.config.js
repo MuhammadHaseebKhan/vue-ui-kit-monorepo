@@ -1,0 +1,10 @@
+import { defineConfigWithVueTs, vueTsConfigs } from "@vue/eslint-config-typescript";
+import pluginVue from "eslint-plugin-vue";
+
+export default defineConfigWithVueTs(
+  {
+    ignores: ["**/dist/**", "**/storybook-static/**", "**/coverage/**"],
+  },
+  pluginVue.configs["flat/recommended"],
+  vueTsConfigs.recommended,
+);

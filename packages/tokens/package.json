@@ -1,0 +1,16 @@
+{
+  "name": "@vue-ui-kit/tokens",
+  "version": "0.1.0",
+  "description": "Design tokens as CSS custom properties, with light and dark themes",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": [
+    "*.css"
+  ],
+  "exports": {
+    "./tokens.css": "./src/tokens.css"
+  },
+  "files": [
+    "src"
+  ]
+}
