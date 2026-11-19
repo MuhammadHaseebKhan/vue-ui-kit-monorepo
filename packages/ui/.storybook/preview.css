@@ -1,0 +1,6 @@
+/* Paint the whole canvas from the tokens so the theme toolbar switches the page, not just the story box. */
+html,
+body {
+  background: var(--uk-color-surface);
+  color: var(--uk-color-text);
+}
